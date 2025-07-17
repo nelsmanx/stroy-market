@@ -12,6 +12,7 @@ export default withNuxt([
       'prettier/prettier': 'warn',
       quotes: ['error', 'single'],
       'no-console': 1,
+      'vue/no-multiple-template-root': 'off',
     },
     languageOptions: {
       globals: {
